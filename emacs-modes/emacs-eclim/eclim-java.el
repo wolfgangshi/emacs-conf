@@ -41,7 +41,8 @@
 (define-key eclim-mode-map (kbd "C-c C-e z") 'eclim-java-implement)
 (define-key eclim-mode-map (kbd "C-c C-e d") 'eclim-java-doc-comment)
 (define-key eclim-mode-map (kbd "C-c C-e f s") 'eclim-java-format)
-(define-key eclim-mode-map (kbd "C-c C-e g") 'eclim-java-generate-getter-and-setter)
+(define-key eclim-mode-map (kbd "C-c C-e g g") 'eclim-java-generate-getter-and-setter)
+(define-key eclim-mode-map (kbd "C-c C-e g") 'eclim-java-generate-getter)
 (define-key eclim-mode-map (kbd "C-c C-e t") 'eclim-run-junit)
 
 (defvar eclim-java-show-documentation-map
